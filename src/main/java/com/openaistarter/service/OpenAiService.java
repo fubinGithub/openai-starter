@@ -10,5 +10,5 @@ public interface OpenAiService {
      * 发送信息测试
      * @return return
      */
-    String sendMassTest();
+    String sendMassTest(String data);
 }

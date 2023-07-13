@@ -20,7 +20,7 @@ public class OpenAiController {
     @GetMapping
     public String getTest(){
 
-        return openAiService.sendMassTest();
+        return openAiService.sendMassTest("你好");
     }
 
 }
